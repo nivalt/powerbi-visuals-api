@@ -1855,6 +1855,7 @@ declare module powerbi.extensibility.visual {
         isInFocus?: boolean;
         subSelections?: powerbi.visuals.CustomVisualSubSelection[];
         formatMode?: boolean;
+        pendingChanges?: boolean;
     }
 
     export interface VisualConstructorOptions extends extensibility.VisualConstructorOptions {
